@@ -1,0 +1,50 @@
+/* media */
+@media screen and (max-width: 576px) {
+    .card {
+        border: none;
+    }
+
+    li {
+        transition: all 0.5s;
+        padding-top: 1%;
+    }
+
+    li:hover {
+        transform: scale(1.03);
+    }
+
+    .imagescarousel {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px) {
+    .card {
+        border: 1px solid red;
+        margin-left: 1%;
+    }
+
+    li {
+        transition: all 0.5s;
+        padding-top: 1%;
+    }
+
+    li:hover {
+        transform: scale(1.03);
+    }
+
+
+}
+
+@media screen and (max-width:992px) {
+    .card {
+        border: 1px solid red;
+        margin-left: 1%;
+    }
+
+
+}
+/* fin media */

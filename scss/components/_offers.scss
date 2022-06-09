@@ -1,0 +1,58 @@
+/* Ofertas Seccion */
+
+.titlediv {
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/banner2.jpg);
+    margin-top: 0.5%;
+    .titleoffer {
+        color: black;
+    }
+    
+}
+
+.imagescarousel {
+    margin-top: 0.5%;
+}
+
+.offerssec {
+    background-image: url(../images/gamingbackground.jpg);
+    .ofertas1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1%;
+        background-color: black;
+        background-image: url(../images/gamingbackground.jpg);
+    }
+    .ofertas2 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 1%;
+    }
+}
+
+.card-img-top {
+    transition: all 0.9s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.card {
+    border: 3px solid red;
+    background-color: black;
+    margin-bottom: 1%;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+/*Fin Ofertas */
