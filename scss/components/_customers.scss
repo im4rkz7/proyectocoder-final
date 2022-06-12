@@ -1,6 +1,7 @@
 /* Clientes */
+@import '../base/colors';
 .clientes {
     margin-top: 1%;
-    color: white;
+    color: nth($colors, 3);
 }
 /* Clientes fin */

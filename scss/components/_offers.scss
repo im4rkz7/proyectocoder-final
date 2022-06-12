@@ -1,4 +1,5 @@
 /* Ofertas Seccion */
+@import '../base/colors';
 
 .titlediv {
     display: flex;
@@ -6,7 +7,7 @@
     background-image: url(../images/banner2.jpg);
     margin-top: 0.5%;
     .titleoffer {
-        color: black;
+        color: nth($colors, 2);
     }
     
 }
@@ -21,7 +22,7 @@
         display: flex;
         justify-content: space-around;
         margin-top: 1%;
-        background-color: black;
+        background-color: nth($colors, 2);
         background-image: url(../images/gamingbackground.jpg);
     }
     .ofertas2 {
@@ -43,16 +44,16 @@
 
 
 .card {
-    border: 3px solid red;
-    background-color: black;
+    border: 3px solid nth($colors, 1);
+    background-color: nth($colors, 2);
     margin-bottom: 1%;
 }
 
 .card-title {
-    color: white;
+    color: nth($colors, 3);
 }
 
 .card-text {
-    color: white;
+    color: nth($colors, 3);
 }
 /*Fin Ofertas */

@@ -1,8 +1,7 @@
 /* Footer */
+@import '../base/mixing';
 .socialmedia {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 2%;
+    @include footer;
     .twitter {
         margin-right: 2%;
     }
