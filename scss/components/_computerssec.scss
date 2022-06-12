@@ -1,36 +1,32 @@
+@import '../base/colors';
+@import '../base/extends';
+@import '../base/mixing';
+
 /* Computers */
 .gama-alta {
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
+    @include cards;
     .card-alta {
-        border: 2px solid red;
-        margin-left: 2%;
-        border-radius: 6px;
+        border: 2px solid nth($colors, 1 );
+        @extend %ranges;
     }
 }
 
 .gama-media {
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
+    @include cards;
     .card-media {
-        border: 2px solid blue;
-        margin-left: 2%;
-        border-radius: 6px;
+        border: 2px solid nth($colors, 5);
+        @extend %ranges;
+       
     }
     
 }
 
 .gama-baja {
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
+    @include cards;
     margin-bottom: 1%;
     .card-baja {
-        border: 2px solid green;
-        margin-left: 2%;
-        border-radius: 6px;
+        border: 2px solid nth($colors,4);
+        @extend %ranges;
     }
 }
 

@@ -1,4 +1,5 @@
 /* media */
+@import '../base/colors';
 @media screen and (max-width: 576px) {
     .card {
         border: none;
@@ -23,7 +24,7 @@
 
 @media screen and (max-width:768px) {
     .card {
-        border: 1px solid red;
+        border: 1px solid nth($colors, 1);
         margin-left: 1%;
     }
 
@@ -41,7 +42,7 @@
 
 @media screen and (max-width:992px) {
     .card {
-        border: 1px solid red;
+        border: 1px solid nth($colors, 1);
         margin-left: 1%;
     }
 

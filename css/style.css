@@ -96,6 +96,11 @@ header .progress {
 }
 
 /*Fin Footer */
+.gama-baja .card-baja, .gama-media .card-media, .gama-alta .card-alta {
+  margin-left: 2%;
+  border-radius: 6px;
+}
+
 /* Computers */
 .gama-alta {
   display: flex;
@@ -104,8 +109,6 @@ header .progress {
 }
 .gama-alta .card-alta {
   border: 2px solid red;
-  margin-left: 2%;
-  border-radius: 6px;
 }
 
 .gama-media {
@@ -115,8 +118,6 @@ header .progress {
 }
 .gama-media .card-media {
   border: 2px solid blue;
-  margin-left: 2%;
-  border-radius: 6px;
 }
 
 .gama-baja {
@@ -127,8 +128,6 @@ header .progress {
 }
 .gama-baja .card-baja {
   border: 2px solid green;
-  margin-left: 2%;
-  border-radius: 6px;
 }
 
 /* Fin Computers */

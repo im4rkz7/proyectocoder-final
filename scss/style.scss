@@ -1,7 +1,7 @@
-$black: black;
+@import '../scss/base/colors';
 
 body {
-    background-color: $black;
+    background-color: nth($colors, 2);
 }
 @import 'components/nav';
 
