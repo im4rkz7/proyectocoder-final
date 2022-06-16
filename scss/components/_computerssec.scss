@@ -2,33 +2,24 @@
 @import '../base/extends';
 @import '../base/mixing';
 
-/* Computers */
 .gama-alta {
-    @include cards;
-    .card-alta {
-        border: 2px solid nth($colors, 1 );
-        @extend %ranges;
+    @include gamas;
+    .card-alta{
+        border: 2px solid nth($colors, 1 )
     }
 }
-
 .gama-media {
-    @include cards;
-    .card-media {
-        border: 2px solid nth($colors, 5);
-        @extend %ranges;
-       
+    @include gamas;
+    .card-media{
+        border: 2px solid nth($colors, 4 )
     }
-    
 }
-
 .gama-baja {
-    @include cards;
+    @include gamas;
     margin-bottom: 1%;
-    .card-baja {
-        border: 2px solid nth($colors,4);
-        @extend %ranges;
+    .card-baja{
+        border: 2px solid nth($colors, 5 )
     }
 }
-
 
 /* Fin Computers */
