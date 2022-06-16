@@ -4,7 +4,7 @@
 .titlediv {
     display: flex;
     justify-content: center;
-    background-image: url(../images/banner2.jpg);
+    background-image: url(../scss/images/banner2.webp);
     margin-top: 0.5%;
     .titleoffer {
         color: nth($colors, 2);
@@ -17,18 +17,20 @@
 }
 
 .offerssec {
-    background-image: url(../images/gamingbackground.jpg);
+    background-image: url(../scss/images/gamingbackground.webp);
     .ofertas1 {
         display: flex;
         justify-content: space-around;
         margin-top: 1%;
         background-color: nth($colors, 2);
-        background-image: url(../images/gamingbackground.jpg);
+        background-image: url(../scss/images/gamingbackground.webp);
+        flex-wrap: wrap;
     }
     .ofertas2 {
         display: flex;
         justify-content: space-around;
         margin-top: 1%;
+        flex-wrap: wrap;
     }
 }
 

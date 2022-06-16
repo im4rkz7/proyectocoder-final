@@ -7,6 +7,8 @@ header {
   position: sticky;
   top: 0;
   z-index: 3;
+  max-width: 100%;
+  width: 100%;
 }
 header li {
   transition: all 0.5s;
@@ -32,7 +34,7 @@ header .progress {
 .titlediv {
   display: flex;
   justify-content: center;
-  background-image: url(../images/banner2.jpg);
+  background-image: url(../scss/images/banner2.webp);
   margin-top: 0.5%;
 }
 .titlediv .titleoffer {
@@ -44,19 +46,21 @@ header .progress {
 }
 
 .offerssec {
-  background-image: url(../images/gamingbackground.jpg);
+  background-image: url(../scss/images/gamingbackground.webp);
 }
 .offerssec .ofertas1 {
   display: flex;
   justify-content: space-around;
   margin-top: 1%;
   background-color: black;
-  background-image: url(../images/gamingbackground.jpg);
+  background-image: url(../scss/images/gamingbackground.webp);
+  flex-wrap: wrap;
 }
 .offerssec .ofertas2 {
   display: flex;
   justify-content: space-around;
   margin-top: 1%;
+  flex-wrap: wrap;
 }
 
 .card-img-top {
@@ -96,16 +100,12 @@ header .progress {
 }
 
 /*Fin Footer */
-.gama-baja .card-baja, .gama-media .card-media, .gama-alta .card-alta {
-  margin-left: 2%;
-  border-radius: 6px;
-}
-
-/* Computers */
 .gama-alta {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 1%;
+  background-color: black;
+  flex-wrap: wrap;
 }
 .gama-alta .card-alta {
   border: 2px solid red;
@@ -113,21 +113,25 @@ header .progress {
 
 .gama-media {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 1%;
+  background-color: black;
+  flex-wrap: wrap;
 }
 .gama-media .card-media {
-  border: 2px solid blue;
+  border: 2px solid green;
 }
 
 .gama-baja {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 1%;
+  background-color: black;
+  flex-wrap: wrap;
   margin-bottom: 1%;
 }
 .gama-baja .card-baja {
-  border: 2px solid green;
+  border: 2px solid blue;
 }
 
 /* Fin Computers */
@@ -135,6 +139,7 @@ header .progress {
 .clientes {
   margin-top: 1%;
   color: white;
+  margin-left: 1%;
 }
 
 /* Clientes fin */
@@ -174,5 +179,23 @@ header .progress {
   }
 }
 /* fin media */
+.titlewe {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.description {
+  color: gray;
+  text-align: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1%;
+}
 
 /*# sourceMappingURL=style.css.map */
