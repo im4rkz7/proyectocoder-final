@@ -3,6 +3,7 @@
 body {
     background-color: nth($colors, 2);
 }
+
 @import 'components/nav';
 
 @import 'components/offers';
